@@ -1,0 +1,31 @@
+package selfProgramming;
+import java.util.Scanner;
+public class multiplySelection {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		int num;
+		
+		System.out.print("Enter the number : ");
+		num = sc.nextInt();
+		
+		if(num >= 1)// kalau besar dari atau sama dengan 1 betul
+		{// bllock statement (buka)
+			System.out.println("The number you enter is " + num);
+			System.out.println("You enter the positive number");
+		}// block statement (tutup)
+		else if (num < 0)// kalau kecil dari 0 betul
+		{
+			System.out.println("The number you enter is " + num);
+			System.out.println("You enter the negative number");
+		}
+		else// selain dari di atas masuk disini
+		{
+			System.out.println("The number you enter is " + num);
+			System.out.println("You enter the zero number");
+		}
+	}
+
+}
