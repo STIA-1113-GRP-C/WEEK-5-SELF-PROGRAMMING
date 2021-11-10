@@ -1,0 +1,19 @@
+package selfProgramming;
+import java.util.Scanner;
+public class count {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		double y = 15.0, x = 25.0;
+		
+		if (y != x)// != maksudnya bukan sama dengan
+			System.out.print("Result : y is not equal x");//betul
+		else
+			System.out.print("Result : y is equal to x");//salah
+		
+
+	}
+
+}
