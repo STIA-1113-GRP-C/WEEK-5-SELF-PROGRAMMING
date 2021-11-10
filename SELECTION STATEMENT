@@ -1,0 +1,28 @@
+package selfProgramming;
+import java.util.Scanner;
+public class selectionStatement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		int num1, num2, total, max = 5;//variable
+		
+		System.out.print("Enter the first number: ");//arahan untuk masukkan nombor pertana
+		num1 = sc.nextInt();
+		System.out.print("Enter the second number: ");//arahan untuk memasukkan nombor kedua
+		num2 = sc.nextInt();
+		
+		total = num1 - num2;// pengiraan
+		
+		if (total > max)//selection samaada betul atau salah
+			System.out.print("The answer is greater than 5");// statement untuk jawapan yang betul
+		else
+			System.out.print("The answer is less than 5");// statement untuk jawapan yang salah
+			
+			
+		
+
+	}
+
+}
